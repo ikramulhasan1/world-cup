@@ -125,6 +125,20 @@ h1 {
     margin-right: 8px;
 }
 
+/* view-btn */
+.view-btn {
+    color: aliceblue;
+    background-color: #DD0000;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    left: 107%;
+    display: none;
+}
+
 footer {
     background-color: #161616;
     text-align: center;
@@ -487,5 +501,18 @@ footer a {
     .bottom-part {
         display: flex;
         flex-direction: column;
+    }
+
+    .view-btn {
+        width: 200px;
+        height: 70px;
+        position: relative;
+        left: -0%;
+        bottom: -100%;
+
+    }
+
+    .hide-btn {
+        display: block;
     }
 }
